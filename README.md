@@ -6,3 +6,6 @@ Welcome to **ML Algorithms from Scratch** – a repository dedicated to implemen
 
 - **Linear Regression from Scratch**  
   A simple implementation of linear regression using gradient descent.
+
+- **Logistic Regression from Scratch**  
+  A simple implementation of logistic regression using gradient descent for binary classification.
