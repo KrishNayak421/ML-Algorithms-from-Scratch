@@ -32,13 +32,13 @@ This folder contains two main files:
 Instead of Mean Squared Error, we use a cost function called Cross-Entropy, also known as Log Loss. Cross-entropy loss can be divided into two separate cost functions: one for y=1 and one for y=0.
 
 
-![image](https://github.com/user-attachments/assets/4ae60e1c-efbd-4a12-9731-5506762010c0)
+   ![image](https://github.com/user-attachments/assets/4ae60e1c-efbd-4a12-9731-5506762010c0)
 
 
 The benefits of taking the logarithm reveal themselves when you look at the cost function graphs for y=1 and y=0. These smooth monotonic functions (always increasing or always decreasing) make it easy to calculate the gradient and minimize cost. Image from Andrew Ng’s slides on logistic regression.
 
 
-![image](https://github.com/user-attachments/assets/5c11c5e6-208c-481e-ad2c-8d8c9497da02)
+   ![image](https://github.com/user-attachments/assets/5c11c5e6-208c-481e-ad2c-8d8c9497da02)
 
 
 The key thing to note is the cost function penalizes confident and wrong predictions more than it rewards confident and right predictions! The corollary is increasing prediction accuracy (closer to 0 or 1) has diminishing returns on reducing cost due to the logistic nature of our cost function.
