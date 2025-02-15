@@ -4,9 +4,9 @@
 
 Linear regression is a fundamental machine learning algorithm used to model the relationship between a dependent variable (target) and an independent variable (feature) by fitting a linear equation to the data. The goal is to find the best-fitting straight line, defined by the equation:
 
-\[
+$$
 \hat{y} = w \times x + b
-\]
+$$
 
 where:
 
@@ -16,19 +16,19 @@ where:
 
 The quality of the fit is usually measured using the **Mean Squared Error (MSE)**, which is calculated as:
 
-\[
+$$
 \text{MSE} = \frac{1}{n} \sum\_{i=1}^{n} \left(y_i - (w \times x_i + b)\right)^2
-\]
+$$
 
 ## How It Works
 
 To minimize the error (MSE), we use **gradient descent**, an iterative optimization algorithm that updates the parameters \( w \) and \( b \) in the direction of the steepest descent (i.e., the negative gradient). The update rules are:
 
-\[
+$$
 w := w - \alpha \frac{\partial \text{MSE}}{\partial w}, \quad b := b - \alpha \frac{\partial \text{MSE}}{\partial b}
-\]
+$$
 
-where \( \alpha \) is the learning rate.
+where $\( \alpha \)$ is the learning rate.
 
 ## My Implementation
 
