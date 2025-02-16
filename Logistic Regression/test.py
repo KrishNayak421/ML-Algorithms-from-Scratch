@@ -12,7 +12,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 def accuracy(y_true, y_pred):
     accuracy = np.sum(y_true == y_pred) / len(y_true)
-    return f"{accuracy.round(2)*100}%" 
+    return f"{accuracy.round(3)*100}%" 
 
 
 regressor = LogisticRegression(lr=0.0001, n_iters=1000)
