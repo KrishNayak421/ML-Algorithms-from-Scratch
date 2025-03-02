@@ -10,6 +10,6 @@ Welcome to **ML Algorithms from Scratch** – a repository dedicated to implemen
 - **Logistic Regression from Scratch**  
   A simple implementation of logistic regression using gradient descent for binary classification.
 
-- **KNN (K Nearest Neighbours) from Scratch**
+- **KNN (K Nearest Neighbours) from Scratch**   
 (In Progress)
  
